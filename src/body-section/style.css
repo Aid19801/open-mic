@@ -1,0 +1,26 @@
+h1 {
+    color: white;
+}
+
+/*homepage panes */
+.body-section {
+    border: 2px solid white;
+}
+
+.row {
+    color: white;
+}
+
+.promotron {
+    height: 30vh;
+    margin-top: 5vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 3px solid rgba(0, 0, 0, 0.5);
+    transition: border 0.5s, background-color 0.5s;
+}
+
+
+.promotron:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 3px solid rgba(255,255,255, 1);
+}

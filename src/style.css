@@ -1,0 +1,9 @@
+ body {
+    background-image: url('https://static.pexels.com/photos/9137/night-vintage-music-bokeh.jpg');
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+}

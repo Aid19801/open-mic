@@ -1,0 +1,75 @@
+
+.gig-night-box {
+    height: 40vh;
+
+    -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 1.5s;
+
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/*END OF ANIMATION CODE*/
+
+.gig-details {
+    border: 2px solid rgba(164, 104, 31, 1);
+    height: 100%;
+    transition: border 0.2s;
+}
+
+.gig-details:hover {
+    border: 2px solid black;
+}
+
+.inner-box {
+    background-color: rgba(85, 58, 58, 0.3);
+    width: 90%;
+    height: 95%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: inline-block;
+    border: 2px solid white;
+    font-family: monospace;
+    text-shadow: 3px 2px black;
+    transition: width 0.5s, height 0.5s, background-color 0.5s;
+}
+
+.inner-box:hover {
+    background-color: rgba(85, 58, 58, 0.9);
+    width: 95%;
+    height: 98%;
+}
+
+.inner-box p {
+    text-shadow: 2px 2px black;
+}
