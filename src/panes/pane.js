@@ -16,9 +16,11 @@ class Pane extends Component {
           <div className="inner-box"> 
             
             <div className="gig-details">
-              <h1>{name}</h1>
-              <h3>{location}</h3>
-              <p>This is some blurb about the night that no one cares about </p>
+              <h3>{name}</h3>
+              <h4>{location}</h4>
+              <div id="p-tag">
+                <p>This is some blurb about the night that no one cares about</p>
+              </div>
             </div>
                 
           </div>
