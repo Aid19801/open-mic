@@ -8,9 +8,9 @@ import {
 
 
 const Home = () => <h1>Home</h1>
-const About = () => <h1>Home</h1>
-const Topics = () => <h1>Home</h1>
-const BodySection = () => <h1>Home</h1>
+const About = () => <h1>About</h1>
+const Topics = () => <h1>Topics</h1>
+const BodySection = () => <h1>Bodysection</h1>
 
 class NavBar extends Component {
 
