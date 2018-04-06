@@ -1,7 +1,15 @@
 import React, { Component } from 'react';
 import NavBar from './navbar/navbar';
 import BodySection from './body-section/body-section';
+import About from './about/about';
+
 import style from './style.css';
+
+import {
+  BrowserRouter as Router,
+  Route,
+  Link
+} from 'react-router-dom';
 
 import './App.css';
 
